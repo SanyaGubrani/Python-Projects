@@ -18,6 +18,7 @@ def calculate_score(cards):
     return sum(cards)
 
 def compare(user_score, computer_score):
+    """Compare the scores"""
     if user_score > 21 and computer_score > 21:
         return "You went over. You lose 😤"
     if user_score == computer_score:
